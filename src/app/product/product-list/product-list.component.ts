@@ -44,6 +44,7 @@ export class ProductListComponent implements OnInit {
     this.filteredProducts=this.products.filter(
       product=>product.name.toLowerCase().includes(searchTerm)
     )
+    this.sortProducts(this.sortOrder);
   }
 
   sortProducts(sortValue:string){
