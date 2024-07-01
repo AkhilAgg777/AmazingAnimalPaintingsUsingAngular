@@ -1,5 +1,5 @@
 {
-  "name": "amazing-animal-paintings",
+  "name": "amazinganimalpaintings",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,15 +7,18 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:AMAZING-ANIMAL-PAINTINGS": "node dist/amazing-animal-paintings/server/server.mjs"
+    "serve:ssr:AMAZINGANIMALPAINTINGS": "node dist/amazinganimalpaintings/server/server.mjs"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.0",
+    "@angular/cdk": "^18.0.5",
     "@angular/common": "^18.0.0",
     "@angular/compiler": "^18.0.0",
     "@angular/core": "^18.0.0",
+    "@angular/flex-layout": "^15.0.0-beta.42",
     "@angular/forms": "^18.0.0",
+    "@angular/material": "^18.0.5",
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/platform-server": "^18.0.0",
